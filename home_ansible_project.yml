@@ -2,5 +2,8 @@
   hosts: all
   tasks:
     - name: Hello Message
+      script: 
       debug:
         msg: "My new playbook!!!"
+  roles:
+    - samuliy.ansible.apt
